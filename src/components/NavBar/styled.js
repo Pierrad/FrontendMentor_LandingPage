@@ -4,7 +4,6 @@ import colors from '../../theme/colors'
 import DropDownItem from '../DropDownItem/index'
 
 export const Container = styled.div`
-  width: 80%;
   display: flex;
   flex-direction: row;
   align-items: center;

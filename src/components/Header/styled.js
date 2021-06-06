@@ -21,7 +21,7 @@ export const Wrapper = styled.div`
 `
 
 export const NavigationBar = styled(NavBar)`
-  width: 80%;
+  max-width: 100%;
   padding: 2rem 8rem;
 `
 

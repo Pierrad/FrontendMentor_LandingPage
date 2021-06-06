@@ -5,15 +5,14 @@ import Footer from './components/Footer/index'
 
 export const Container = styled.div`
   position: relative;
-  height: 100%;
+  min-height: 100vh;
 `
 
 export const MyHeader = styled(Header)`
-  position: fixed;
-  top: 0;
+  height: 25rem;
 `
 
 export const MyFooter = styled(Footer)`
-  position: fixed;
-  bottom: 0;
+  position: absolute;
+  margin-top: 100vh;
 `

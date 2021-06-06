@@ -2,55 +2,12 @@ import React from 'react'
 import PropTypes from 'prop-types';
 
 import * as SC from "./styled"
+import { dropDownItemsProduct, dropDownItemsCompany, dropDownItemsContact } from './mock'
 import ActionButton from "../ActionButton/index"
+
 
 const NavBar = (props) => {
   const { className } = props
-
-  const dropDownItemsProduct = [
-    {
-      label: 'Product1',
-      url: 'https://www.google.com',
-    },
-    {
-      label: 'Product2',
-      url: 'https://www.google.com',
-    },
-    {
-      label: 'Product3',
-      url: 'https://www.google.com',
-    },
-  ]
-
-  const dropDownItemsCompany = [
-    {
-      label: 'Company1',
-      url: 'https://www.google.com',
-    },
-    {
-      label: 'Company2',
-      url: 'https://www.google.com',
-    },
-    {
-      label: 'Company3',
-      url: 'https://www.google.com',
-    },
-  ]
-
-  const dropDownItemsContact = [
-    {
-      label: 'Contact',
-      url: 'https://www.google.com',
-    },
-    {
-      label: 'Newsletter',
-      url: 'https://www.google.com',
-    },
-    {
-      label: 'LinkedIn',
-      url: 'https://www.google.com',
-    },
-  ]
 
   return (
     <SC.Container className={className}>

@@ -8,7 +8,7 @@ export const DropDown = styled.div`
   background-color: ${colors.white};
   padding: 1rem 3rem 0.4rem 1rem;
   border-radius: 0.3rem;
-  max-width: 3rem;
+  max-width: 4rem;
   margin-top: 0.5rem;
   left: -0.5rem;
 `
@@ -33,15 +33,14 @@ export const Label = styled.span`
     font-family: 'OverpassRegular', sans-serif;
     font-size: 1rem;
     color: ${colors.white};
-
 `
 
 export const Link = styled.a`
   font-family: 'OverpassRegular', sans-serif;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   text-decoration: none;
   color: ${colors.veryDarkBlackBlue};
-  margin-bottom: 0.6rem;
+  margin-bottom: 0.8rem;
   &:hover {
     font-weight: 700;
   }
